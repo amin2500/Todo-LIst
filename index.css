@@ -1,0 +1,44 @@
+.title {
+  font-size: 22px;
+}
+
+.js-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.js-date {
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(83, 0, 128);
+  cursor: pointer;
+}
+
+.js-button {
+  border: none;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 13px;
+}
+
+.js-para,
+.todo-input-grid{
+  display: grid;
+  grid-template-columns: 350px 150px 150px;
+  font-size: 18px;
+  column-gap: 13px;
+  row-gap: 13px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.delete-Button {
+  border: none;
+  color: white;
+  background-color: darkred;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 13px;
+}
